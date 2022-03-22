@@ -7,3 +7,6 @@ window.addEventListener('scroll', () => {
         navbar.classList.remove('navbar-scrolled');
     }
 });
+
+/*========== SCROLLREVEAL ==========*/
+ScrollReveal().reveal('.reveal', { delay: 500 });
