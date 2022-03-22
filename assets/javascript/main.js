@@ -9,4 +9,4 @@ window.addEventListener('scroll', () => {
 });
 
 /*========== SCROLLREVEAL ==========*/
-ScrollReveal().reveal('.reveal', { delay: 500 });
+ScrollReveal().reveal('.reveal', { delay: 600 });
