@@ -257,14 +257,36 @@ img{
     border-radius: .3rem;
 }
 
+/*====== FOOTER ======*/
+footer{
+    box-shadow: 0px 3px 10px rgba(0 0 0 / 15%);
+    background-color: var(--primary-color);
 
+}
 
+.footer_container{
+    color: #fff;
+    padding: 2rem 0;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+    gap: 2.4rem;
+}
+
+footer h4{
+    color: var(--secondary-color);
+}
+
+.footer_form input{
+    margin: 1rem 0rem .4rem;
+    border: none;
+    border-radius: .4rem;
+    padding: .5rem 1rem; 
+}
 /*====== SCROLL UP ======*/
 .scrollup{
     position: fixed;
     right: 5rem;
     bottom: -20rem;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     padding: .5rem .75rem;
     border-radius: .4rem;
     transition: .4s;
