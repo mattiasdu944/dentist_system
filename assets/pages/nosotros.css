@@ -245,6 +245,7 @@ img{
 .premio_item p{
     color: #fff;
 }
+
 /*====== FOOTER ======*/
 footer{
     box-shadow: 0px 3px 10px rgba(0 0 0 / 15%);
@@ -283,6 +284,7 @@ footer h4{
 .show-scroll{
     bottom: 3rem;
 }
+
 /*====== MEDIA QUERIES ======*/
 @media (max-width: 990px){
     .container{
