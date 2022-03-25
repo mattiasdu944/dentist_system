@@ -144,7 +144,7 @@ img{
 }
 
 .toogle{
-    color: #fff;
+    color: var(--secondary-color);
     cursor: pointer;
     font-size: 2rem;
     display: none;
